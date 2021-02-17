@@ -83,4 +83,4 @@ app.post("/v1/shorten", async (req, res) => {
   }
 });
 
-export default (req, res) => app(req, res);
+export default (req, res) => app(req, res); // This solves the "Staled requests warning"
